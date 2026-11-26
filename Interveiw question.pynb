@@ -1,0 +1,247 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "36db6e5b-d64f-4051-8c6b-c7a655907ecc",
+   "metadata": {},
+   "source": [
+    "# 1. What is python ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b9411aa6-f211-45e8-b02c-a44d8e706cbc",
+   "metadata": {},
+   "source": [
+    "python is a high level,genreal-purpose programming language known for its simple, readable syntax that closely resembles plain english."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "26d06220-8c8d-4e83-9053-ef4addf9d09d",
+   "metadata": {},
+   "source": [
+    "# 2. In which areas python is used ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c3867616-1751-443a-9a14-499d5d178636",
+   "metadata": {},
+   "source": [
+    "Web development \n",
+    "\n",
+    "Artifical intelligence(AI) \n",
+    "\n",
+    "Machine learning \n",
+    "\n",
+    "Data Science\n",
+    "\n",
+    "Automation\n",
+    "\n",
+    "Software Devlopment"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f1be9a38-25dc-49c0-a12c-1683819fa032",
+   "metadata": {},
+   "source": [
+    "# 3. what are high-level and low-level languages ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2afd96f2-2255-4d4c-b4b9-a5477c50170a",
+   "metadata": {},
+   "source": [
+    "High-level language :- Easy for humans to read and understand. e.g.:- python\n",
+    "\n",
+    "Low-level language :- Closer to computer hardware. e.g. :- Assembly langauge"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4b699d5f-feb0-4e5d-be10-228f32250f0a",
+   "metadata": {},
+   "source": [
+    "# 4. what are interpreted and compiled langauages ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fa4aaebd-24fc-40c1-b5ad-436d96c322b5",
+   "metadata": {},
+   "source": [
+    "Interpreted language :- A language whose entire code executed at run-time by an interpreter. e.g. :- python\n",
+    "\n",
+    "Compiled language :- Whose entire source code converted into machine code before execution. e.g. :- c"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e5c9b9f7-5951-4f83-992c-93b5bee93fc1",
+   "metadata": {},
+   "source": [
+    "# 5. what are staticslly and dynamically typed languages ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4ebc24d3-99fd-45b3-9815-3516dd8cc440",
+   "metadata": {},
+   "source": [
+    "Statically typed :- A programming language in which variable data types are known and checked before executing code. e.g. :- C\n",
+    "\n",
+    "Dynamically typed :-  A programming language in which variable data types are determined and checked while executing the code. e.g. :- python"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "62c28a25-3915-49e9-84a8-3568d2d1be21",
+   "metadata": {},
+   "source": [
+    "# 6. what are weakly and strongly typed lanuages ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b3909f5a-a9d4-47b9-9d5a-449bc607dc5d",
+   "metadata": {},
+   "source": [
+    "Strongly typed :-  Programming language that strictly enforces data type rules, preventing operations between incompatible types. e.g. :- python\n",
+    "\n",
+    "Weakly typed :- Programming language that automatically converts incompatible data types behind the scenes so operations can proceed without throwing an error.. e.g. :- JavaScript"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ea741923-3790-4c34-ab9d-87d61a449dd1",
+   "metadata": {},
+   "source": [
+    "# 7. what is a .PYC file (Byte code) when it is created? ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "16a79f84-24a1-4e16-8ddb-70eb18906f34",
+   "metadata": {},
+   "source": [
+    "A .pyc file is compiled bytecode of python interpreter and it is created automatically when importing module into another programme."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5c5dc487-fa79-4821-984e-96de335b99a5",
+   "metadata": {},
+   "source": [
+    "# 8. What is PVM ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e2137023-b793-4c8a-a6fc-54466513c613",
+   "metadata": {},
+   "source": [
+    "PVM (Python Virtual Machine) is the runtime engine of Python that reads compiled bytecode."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9aba6606-231d-475d-b29e-d1e6e9b732e6",
+   "metadata": {},
+   "source": [
+    "# 9. How does Python works internally ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "49f91855-c8d8-4e33-90d8-aad547c9038d",
+   "metadata": {},
+   "source": [
+    "\n",
+    "                    _________Interpreter________\n",
+    "Code editor --> Source code (.py) --> Compiler --> Bytecode (.pyc) --> PVM --> Output"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "530b1c81-28ed-498e-b26b-fc5406e4d041",
+   "metadata": {},
+   "source": [
+    "# 10. What is PEP 8 ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a24be87f-fce1-4f5e-b1e6-52b8b4cb3252",
+   "metadata": {},
+   "source": [
+    "PEP 8 is the official python guide line written by its createor GUDIO VAN ROSSUM."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5ddf3b56-06c1-4cfc-a0f8-278597e5a29d",
+   "metadata": {},
+   "source": [
+    "# 11. What is PIP ? What is its use ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bae65ff7-32e1-4c5f-a7ea-adaef0556534",
+   "metadata": {},
+   "source": [
+    "PIP stands for PIP INSTALLS PACKAGES. It is used to update and unistall python libraries.\n",
+    "\n",
+    "e.g. :- pip install numpy install the numpy liabrary."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "025e43df-2250-463b-bbbe-bc58dbb2298f",
+   "metadata": {},
+   "source": [
+    "# 12. What is __pycache__folder ?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6d7110a3-c222-4875-a7ac-2e0fa86140b3",
+   "metadata": {},
+   "source": [
+    "The __pycache__ folder is a directory automatically created by Python to store compiled bytecode files (.pyc) of your imported Python modules."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b3792523-e227-49da-bf11-332ce2f1d448",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
